@@ -1,21 +1,50 @@
 # 安装常用的开发软件
 用于介绍一些常用开发软件的安装
 
-## 在Windows中安装JDK
+## 在Windows中安装JDK（解压版本）
+
+### 下载免安装版JDK
+
+到如下网址下载:
+
+```tex
+https://adoptium.net/zh-CN/temurin/releases/
+```
+
+然后找个位置，例如D盘，执行解压，此时解压后的位置为:
+
+```tex
+ D:\Java
+```
+
+然后新增环境变量CLASSPATH:
+
+```tex
+.;%JAVA_HOME%\lib;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar
+```
+
+在PATH中新增:
+
+```tex
+PATH: %JAVA_HOME%\bin;%JAVA_HOME%\jre\bin
+```
+
+## 在Windows中安装JDK（exe安装版）
 
 ### 建立安装文件夹
 在D盘，或者其他盘，建立安装JDK的文件的位置:
 
 - JDK的安装位置
-```
+```tex
  D:\Java\Jdk
 ```
 
 - JRE的安装位置
-```
+```tex
  D:\Java\Jre
 ```
 **然后执行安装即可**
+
 ### 在系统变量下面配置下面的变量
 安装的JDK路径:
 ```
@@ -50,6 +79,8 @@ D:\Java\Jdk\bin
 
 ### 1,Win配置Node环境
 
+把NodeJS压缩包解压到D盘的NodeJS文件夹下（也可以是其他文件夹）
+
 #### 新建一个系统变量
 变量名：
 ```
@@ -59,9 +90,9 @@ NODE_HOME
 ```
 D:\NodeJS
 ```
-#### 编辑path变量，新增2条
+#### 编辑path变量，新增2条变量
 ```
-%NODE_HOME%
+%NODE_HOME%\Node
 %NODE_HOME%\node_global
 ```
 #### 打开git bash窗口，运行下面的命令
@@ -661,10 +692,22 @@ mysql -uroot -p
 use mysql;
 ```
 
+先刷新权限，才可以更新密码
+
+```shell
+flush privileges;
+```
+
 更新密码为123456 (初始化的时候只有root账户在localhost下链接)
 
 ```shell
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '123456';
+```
+
+再次刷新权限
+
+```shell
+flush privileges;
 ```
 
 然后退出各个CMD窗口，再打开CMD窗口执行启动命令即可
