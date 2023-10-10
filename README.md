@@ -289,8 +289,6 @@ npm install yarn@latest -g
 
 ```
 
-
-
 ## G1垃圾回收配置
 
 ```shell
