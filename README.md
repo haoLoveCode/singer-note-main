@@ -714,4 +714,27 @@ flush privileges;
 net start mysql
 ```
 
+## 盘点做过的毕业设计
+
+|               项目名称                |      所用技术       | 备注 |
+| :-----------------------------------: | :-----------------: | ---- |
+|          民政局扶贫救助系统           | SpringBoot2.7、VUE2 |      |
+|           社区健康档案系统            | SpringBoot2.7、VUE2 |      |
+|       养老院管理系统(养老驿站)        | SpringBoot2.7、VUE2 |      |
+|         疫情隔离区域分配系统          | SpringBoot2.7、VUE2 |      |
+|          高校数字化迎新系统           | SpringBoot2.7、VUE2 |      |
+|             仓储管理系统              | SpringBoot2.7、VUE2 |      |
+|             财务报销系统              | SpringBoot2.7、VUE2 |      |
+|            公积金管理系统             | SpringBoot2.7、VUE2 |      |
+|             视频管理系统              | SpringBoot2.7、VUE2 |      |
+|             教材管理系统              | SpringBoot2.7、VUE2 |      |
+| 体检预约微信小程序系统<br/>(带小程序) | SpringBoot2.7、VUE2 |      |
+|         小区物业服务管理系统          | SpringBoot2.7、VUE2 |      |
+|             酒店管理系统              | SpringBoot2.7、VUE2 |      |
+|            智慧停车场系统             | SpringBoot2.7、VUE2 |      |
+|      宠物领养救助系统(带小程序)       | SpringBoot2.7、VUE2 |      |
+|           药店库存管理系统            | SpringBoot2.7、VUE2 |      |
+
+
+
 #### 未完待续 。。。
