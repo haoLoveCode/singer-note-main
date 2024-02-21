@@ -714,6 +714,34 @@ flush privileges;
 net start mysql
 ```
 
+## 安装需要设置的环境变量
+
+**JAVA_HOME**
+
+```shell
+D:\Java\jdk8u362-b09
+```
+
+**NODE_HOME**
+
+```shell
+D:\NodeJS
+```
+
+**MAVEN_HOME**
+
+```shell
+D:\Maven\apache-maven-3.8.4
+```
+
+**MYSQL_HOME**
+
+```shell
+D:\MySQL\mysql-8.0.27-winx64
+```
+
+
+
 ## 盘点做过的毕业设计
 
 |               项目名称                |      所用技术       | 备注 |
