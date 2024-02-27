@@ -122,6 +122,10 @@ yarn config get registry
 ```
 npm config set scripts-prepend-node-path true
 ```
+#### 设置忽略yarn在构建的时候忽略NodeJS版本信息
+```
+yarn config set ignore-engines true
+```
 
 ### 2,Mac配置Node环境变量
 
