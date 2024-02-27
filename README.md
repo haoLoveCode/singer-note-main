@@ -267,7 +267,7 @@ npm install yarn@latest -g
 
 --add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED
 --add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED
--javaagent:D:\IntelliJ IDEA 2022.3.3\jetbra\ja-netfilter.jar=jetbrains
+-javaagent:D:\IntelliJ-IDEA-2022.3.3\jetbra\ja-netfilter.jar=jetbrains
 
 -XX:+PrintGC
 -XX:+UseGCLogFileRotation
