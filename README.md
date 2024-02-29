@@ -604,9 +604,9 @@ https://downloads.mysql.com/archives/community/
 # 设置3306端口
 port=3306
 # 设置mysql的安装目录 Docker部署则不需要
-basedir=D:\MySQL\mysql-8.0.27-winx64
+basedir=D:\MySQL\mysql-8.0.34-winx64
 # 设置mysql数据库的数据的存放目录
-datadir=D:\MySQL\mysql-8.0.27-winx64\data
+datadir=D:\MySQL\mysql-8.0.34-winx64\data
 # 允许最大连接数
 max_connections=1000
 # 允许连接失败的次数。这是为了防止有人从该主机试图攻击数据库系统
