@@ -720,9 +720,9 @@ net start mysql
 
 ### Windows卸载MySQL5.5、5.7
 
-1，直接卸载
+1，直接在控制面板卸载MySQL程序。
 
-2，在Windows注册表中删除如下文件夹的内容
+2，在Windows注册表中删除如下文件夹的内容。
 
 **HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Eventlog\Application\MySQL\ 文件夹。
 HKEY_LOCAL_MACHINE\SYSTEM\ControlSet002\Services\Eventlog\Application\MySQL\ 文件夹。
