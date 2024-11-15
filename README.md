@@ -113,7 +113,14 @@ npm config set cache "D:\NodeJS\node_cache"
 npm config set registry https://registry.npmmirror.com/ && npm config set sass_binary_site https://npmmirror.com/mirrors/node-sass
 npm config get registry
 ```
+#### 安装Yarn
+
+```
+npm install yarn -g
+```
+
 #### yarn设置yarn源和sass_binary_site的源
+
 ```
 yarn config set registry https://registry.npmmirror.com/ && yarn config set sass_binary_site   https://npmmirror.com/mirrors/node-sass
 yarn config get registry
@@ -754,7 +761,52 @@ D:\Maven\apache-maven-3.8.4
 D:\MySQL\mysql-8.0.27-winx64
 ```
 
+**PATH环境变量设置**
 
+%MYSQL_HOME%\bin
+%JAVA_HOME%\bin
+%MAVEN_HOME%\bin
+
+%NODE_HOME%\Node
+%NODE_HOME%\node_global
+
+### VsCode的settings文件配置
+
+```json
+{
+  "workbench.colorTheme": "Solarized Light",
+  "editor.fontSize": 16,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "solidity.telemetry": true,
+  "editor.codeActionsOnSave": {
+  
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "settingsSync.ignoredExtensions": [],
+  "workbench.colorCustomizations": {
+    //设置用户选中代码段的颜色
+    "editor.selectionBackground": "#7c9fe0",
+    "editor.selectionHighlightBackground": "#7c9fe0",
+    //设置活动tab窗口颜色
+    "tab.activeBackground": "#5f80629a"
+  },
+  "settingsSync.ignoredSettings": [],
+  //可以格式化Solidity
+  "[solidity]": {
+    "editor.defaultFormatter": "NomicFoundation.hardhat-solidity"
+  },
+  "editor.fontLigatures": false,
+  "terminal.integrated.fontSize": 16,
+  "notebook.editorOptionsCustomizations": {},
+  "editor.fontVariations": false,
+  "git.openRepositoryInParentFolders": "never"
+}
+
+```
 
 ## 盘点做过的毕业设计
 
